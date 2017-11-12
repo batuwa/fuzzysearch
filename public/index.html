@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fuzzy Search Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h2>FuzzyMatch Search on Top 5000 TMDB Movies</h3>
+        <!-- Input field -->
+        <form role="text">
+                <input id="searchPatternField" type="text" autocomplete="off" size="30" value=""
+                placeholder="enter parts of movie name...">
+        </form>
+        <p><em>Results:</em></p>
+        <ul id="results"></ul>
+    </div>
+
+    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
